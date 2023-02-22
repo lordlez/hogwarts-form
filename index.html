@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">¡Estudiá en <span>Howarts!</span></h1>
+            <p id="description">Llená el formulario para inscribirte en la escuela Oficial de magia en Howarts</p>
+        </header>
+        <form action="" id="survey-form">
+            <div class="container-info">
+                <label for="name" id="name-label">Nombre: <input type="text" required id="name"
+                        placeholder="Tu nombre"></label>
+                <label for="email" id="email-label">Email: <input type="email" required id="email"
+                        placeholder="Tu email"></label>
+                <label for="number" id="number-label">Edad: <input type="number" id="number" min="10" max="500"
+                        placeholder="Tu edad"></label>
+            </div>
+            <div class="container-pets">
+                <p>Elije a tu mascota: </p>
+                <label for=""><input type="radio" name="pet">Lechuza</label>
+                <label for=""><input type="radio" name="pet">Conejo</label>
+                <label for=""><input type="radio" name="pet">Dragón</label>
+                <label for=""><input type="radio" name="pet">Ratón</label>
+            </div>
+            <div class="container-house">
+                <p>¿Cuál es tu casa favorita?</p>
+                <select id="dropdown">
+                    <option value="">(selecciona una opción)</option>
+                    <option value="1">Gryffindor</option>
+                    <option value="2">Slytherin</option>
+                    <option value="3">Ravenclaw</option>
+                    <option value="4">Hufflepuff</option>
+                </select>
+            </div>
+            <div class="container-assignment">
+                <p>Selecciona tus asignaturas favoritas: </p>
+                <label for=""><input type="checkbox" value="astronomía">Astronomía</label>
+                <label for=""><input type="checkbox" value="encantamientos">Encantamientos</label>
+                <label for=""><input type="checkbox" value="artes-oscuras">Artes Oscuras</label>
+                <label for=""><input type="checkbox" value="defensa-contra-las-artes-oscuras">Defensa Contra las Artes
+                    Oscuras</label>
+                <label for=""><input type="checkbox" value="vuelo">Vuelo</label>
+                <label for=""><input type="checkbox" value="herbología">Herbología</label>
+                <label for=""><input type="checkbox" value="historia-de-la-magia">Historia de la Magia</label>
+                <label for=""><input type="checkbox" value="pociones">Pociones</label>
+                <label for=""><input type="checkbox" value="transformaciones">Transformaciones</label>
+            </div>
+            <div class="container-plus">
+                <label for="">¿Por qué querés ingresar a Howarts?: <textarea name="" id="" cols="50"
+                        rows="5" placeholder="Ej: Porque amo la magia..."></textarea></label>
+            </div>
+            <div class="container-submit">
+                <input type="submit" value="Quiero Ingresar a Howarts!">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

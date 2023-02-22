@@ -1,0 +1,113 @@
+:root{
+    --color-crema: #edf6f9;
+    --color-fondo: rgba(27, 27, 50, 0.8);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url(howarts.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 650px;
+    background-color: var(--color-fondo);
+    margin: 0 auto;
+    padding: 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header{
+    color: var(--color-crema);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header span{
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.container-info{
+    text-align: left;
+    font-size: 1.2rem;
+    color: var(--color-crema);
+    margin-bottom: 50px;
+}
+
+.container-info label{
+    display: block;
+    margin: 1rem 0;
+}
+
+.container-info label input{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.container-pets {
+    color: var(--color-crema);
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.container-house{
+    color: var(--color-crema);
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.container-house select{
+    font-size: 1.2rem;
+    border: 1px solid #495057;
+    border-radius: 5px;
+    width: 100%;  
+}
+
+.container-house select option{
+    color: #495057;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-assignment{
+    color: var(--color-crema);
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.container-assignment label{
+    display: block;
+    margin: 1rem 0;
+}
+
+.container-plus{
+    color: var(--color-crema);
+    font-size: 1.2rem;
+}
+
+
+.container-plus textarea{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+
+.container-submit{
+    margin-top: 50px;
+}
+
+.container-submit input{
+    font-size: 1.2rem;
+    color: #495057;
+    background-color: #37af65;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

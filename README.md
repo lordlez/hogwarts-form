@@ -1,5 +1,5 @@
 # :mage:	Hogwarts Form
-Link directo al proyecto: [link](https://lordlez.github.io/howarts-form/)
+Link directo al proyecto: [link](https://lordlez.github.io/hogwarts-form/)
 
 
 # 📝 Objetivo del proyecto
